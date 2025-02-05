@@ -9,13 +9,13 @@ const Request: React.FC = () => {
   const [loading, setLoading] = useState(true); // 로딩중인상태, 기본값: true
   const [error, setError] = useState<string | null>(null); // 에러를 저장
 
-  useEffect(()=>{
+  useEffect(() => {
     const fetchData = async () => {
       try {
         const response = await axios.get('https://rakaso598.github.io/items/items.json');
         setData(response.data);
         setLoading(false);
-        
+
       } catch (err: unknown) {
         if (err instanceof Error) {
           setError(err.message); // err를 Error 타입으로 체크한 후 message 사용
@@ -34,7 +34,7 @@ const Request: React.FC = () => {
   }
 
   // 에러
-  if(error) {
+  if (error) {
     return <div>Error: {error}</div>;
   }
 
