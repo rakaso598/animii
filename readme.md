@@ -6,9 +6,11 @@
 
 ---
 
-`/about` : about 정보 페이지  
+`/about` - about 정보 페이지  
 
-`/request` : get api 조회 페이지  
+`/request` - get api 조회 페이지  
+
+`/todo` - ToDo-List 기능 페이지   
 
 ---
 
