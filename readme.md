@@ -6,6 +6,11 @@
 
 ---
 
+`/about` : about 정보 페이지
+`/request` : get api 조회 페이지
+
+---
+
 ### Next.js ?
 - SEO 최적화, 서버 사이드 렌더링(SSR), 정적 사이트 생성(SSG) 등 다양한 기능을 제공하여, 많은 기업과 개발자들이 Next.js를 선택하고 있습니다. 예를 들어, Netflix, GitHub, Hulu 등 많은 대형 기업들이 Next.js를 사용하고 있습니다.
 
